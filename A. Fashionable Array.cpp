@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int t; // number of test cases
+    int t;
     cin >> t;
 
     while (t--) {
@@ -19,7 +19,7 @@ int main() {
                 ++odd;
         }
 
-        // Minimum removals needed to make min+max even
+
         cout << min(even, odd) << endl;
     }
 
